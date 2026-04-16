@@ -1,0 +1,130 @@
+.attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: rgb(255, 162, 0);
+}
+
+.container {
+    background-color: white;
+    width: 400px;
+    padding: 10px 30px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+h1 {
+    font-family: Karla, sans-serif;
+    margin-bottom: 20px;
+    color: hsl(36, 100%, 50%);
+}
+.userName {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.userName input {
+    width: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.email input,.message textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.email input {
+    padding: 10px;
+}
+
+label {
+    display: block;
+    font-family: Karla, sans-serif;
+    font-size: 0.875rem;
+    font-weight: regular;
+}
+
+.error, .error-mail, .error-query, .error-consent, .error-message {
+    color: red;
+    font-size: 0.875rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+.general-enquiry-checkbox, .support-request-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+.query-type p{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.consent p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.enquiry-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* The submit button is styled to match the overall design of the form and to provide a clear call to action for the user */
+#submit-button {
+    background-color: hsl(36, 100%, 50%);
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    font-family: karla, sans-serif;
+    font-weight: bold;
+}
+
+#submit-button:hover {
+    background-color: hsl(256, 100%, 35%);
+}
+
+.success-message {
+    color: green;
+    font-size: 1rem;
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#message-box {
+    margin: 0;
+}
+
+/*remove automatic margins from P tags to allow for better styling and layout control */
+p {
+    margin: 0;
+}
