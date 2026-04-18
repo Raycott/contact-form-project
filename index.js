@@ -1,6 +1,6 @@
 const form = document.querySelector('#contact-form');
 
-form.addEventListener('submit',function(event) {
+form.addEventListener('submit',(event) => {
     event.preventDefault(); // Prevent the default form submission behavior
 
     // Get form values (trim to handle whitespace)
